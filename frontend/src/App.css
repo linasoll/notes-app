@@ -1,0 +1,40 @@
+.notes-app {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form {
+  margin-bottom: 20px
+}
+
+h1 {
+  text-align: center;
+}
+
+.notes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note-item {
+  width: 290px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  display: block;
+  margin-bottom: 5px;
+  color: red;
+  font-weight: bold;
+}
